@@ -122,11 +122,7 @@ class TestEnvironment:
             if enable_webtransport is not None
             else self.options.get("enable_webtransport_h3", False)
         )
-        self.enable_dns = (
-            enable_dns
-            if enable_dns is not None
-            else self.options.get("enable_dns", False)
-        )
+        self.enable_dns = False
         self.mojojs_path = mojojs_path
         self.inject_script = inject_script
         self.suppress_handler_traceback = suppress_handler_traceback
@@ -204,7 +200,6 @@ class TestEnvironment:
             "wss": [8889],
             "h2": [9000],
             "webtransport-h3": [11000],
-            "dns": [8053],
         }
         config.ports = ports
 
