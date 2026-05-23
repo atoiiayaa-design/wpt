@@ -1308,7 +1308,7 @@ navigation-api/ordering-and-transition/anchor-download-aborts-previous-navigatio
 navigation-api/ordering-and-transition/anchor-download-intercept-reject.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/anchor-download-intercept.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/anchor-download.html @web-platform-tests/interop
-navigation-api/ordering-and-transition/back-cross-document-event-order.html @web-platform-tests/interop
+navigation-api/ordering-and-transition/back-cross-document-event-order-with-pagehide.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/back-same-document-intercept-reject.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/back-same-document-intercept.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/back-same-document.html @web-platform-tests/interop
@@ -1323,7 +1323,7 @@ navigation-api/ordering-and-transition/location-href-intercept.html @web-platfor
 navigation-api/ordering-and-transition/navigate-204-205-download-then-same-document.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/navigate-canceled.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/navigate-cross-document-double.html @web-platform-tests/interop
-navigation-api/ordering-and-transition/navigate-cross-document-event-order.html @web-platform-tests/interop
+navigation-api/ordering-and-transition/navigate-cross-document-event-order-with-pagehide.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/navigate-double-intercept.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/navigate-in-transition-finished.html @web-platform-tests/interop
 navigation-api/ordering-and-transition/navigate-intercept-precommitHandler-redirect.html @web-platform-tests/interop
